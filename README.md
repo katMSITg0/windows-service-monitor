@@ -17,3 +17,20 @@ Run from an elevated PowerShell session:
 
 ```powershell
 .\check-restart-service.ps1
+
+
+
+## Example Output
+
+When the script runs, it checks each configured service and logs the result.
+
+### Console Execution
+```powershell
+.\check-restart-service.ps1
+
+ServiceLogs\service-monitor.log
+
+2026-03-05 21:14:02 - ===== Service check started =====
+2026-03-05 21:14:02 - Service 'Spooler' is running.
+2026-03-05 21:14:02 - Service 'wuauserv' restarted successfully.
+2026-03-05 21:14:02 - ===== Service check completed =====
