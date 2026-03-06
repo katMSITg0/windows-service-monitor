@@ -1,6 +1,6 @@
 # Windows Service Monitor (PowerShell)
 
-A PowerShell automation script that monitors critical Windows services, restarts them if they stop, and logs all actions to a timestamped log file.
+A PowerShell automation script that monitors Windows services, automatically restarts stopped services, and logs all recovery actions for reliable system operation.
 
 ## Features
 - Checks Windows service status using `Get-Service`
